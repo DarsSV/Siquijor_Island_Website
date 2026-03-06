@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Siquijor Island</title> &mdash; Siquijor Island Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    
+    <style>
+      .map-container {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      }
+      .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .loop-card {
+        border-left: 4px solid #65c0ba;
+        padding: 20px;
+        background: #f9f9f9;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 site-logo"><a href="index.html">Siquijor</a></div>
+          <div class="col-8">
+            <div class="site-menu-toggle js-site-menu-toggle">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="site-navbar js-site-navbar">
+              <nav role="navigation">
+                <ul class="list-unstyled menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="hotel.html">Hotels</a></li>
+                  <li class="active"><a href="mustsee.html">Island Map</a></li>
+                  <li><a href="about-contact.html">About & Contact</a></li>
+                  <li class="active"><a href="gallery.html" class="animsition-link">Gallery</a></li>
+
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="site-hero overlay page-inside" style="background-image: url(https://www.saltinourhair.com/wp-content/uploads/2019/02/siquijor-tourist-attractions-header.jpg)">
+      <div class="container">
+        <div class="row site-hero-inner justify-content-center align-items-center">
+          <div class="col-md-10 text-center">
+            <h1 class="heading" data-aos="fade-up">Explore the Island Loop</h1>
+            <p class="sub-heading mb-5" data-aos="fade-up">Navigate your way through the mystical spots of Siquijor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <h2 class="mb-4">Interactive Must-See Map</h2>
+            <div class="map-container">
+              <iframe class="responsive-iframe" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125950.93291583762!2d123.4907409249787!3d9.157580629734182!2m3!1f0!2f0!3f0!3m2!1i1024!2i744!4f13.1!3m3!1m2!1s0x33abec3923974467%3A0x64e837df26e6807d!2sSiquijor!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph" 
+                allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <p class="mt-4 text-muted small">* Tip: Most travelers rent a motorbike in Siquijor town and travel clockwise around the 75km coastal road.</p>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="200">
+            <h3 class="mb-4">The Coastal Route</h3>
+            
+            <div class="loop-card">
+              <h5><i class="fa fa-map-marker text-primary"></i> Paliton Beach</h5>
+              <p class="small">The perfect starting point for morning sun or evening sunsets.</p>
+              <span class="badge badge-info">15 mins from Siquijor Port</span>
+            </div>
+
+            <div class="loop-card">
+              <h5><i class="fa fa-map-marker text-primary"></i> Cambugahay Falls</h5>
+              <p class="small">Located in Lazi. Best visited before 10:00 AM to avoid crowds.</p>
+              <span class="badge badge-info">30 mins from San Juan</span>
+            </div>
+
+            <div class="loop-card">
+              <h5><i class="fa fa-map-marker text-primary"></i> Lazi Church</h5>
+              <p class="small">Right across from the falls. A historical UNESCO candidate.</p>
+              <span class="badge badge-info">5 mins from the Falls</span>
+            </div>
+
+            <div class="loop-card">
+              <h5><i class="fa fa-map-marker text-primary"></i> Salagdoong Beach</h5>
+              <p class="small">Famous for cliff jumping and turquoise waters.</p>
+              <span class="badge badge-info">20 mins from Lazi</span>
+            </div>
+
+            <a href="about.html" class="btn btn-primary btn-block mt-4">Book a Guided Tour</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section footer-section">
+        <div class="container">
+          <div class="row bordertop text-center pt-5">
+            <p class="col-md-12">&copy; Copyright 2026. All Rights Reserved.</p>
+          </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
